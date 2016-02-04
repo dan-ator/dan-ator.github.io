@@ -8,10 +8,10 @@ h1 {
   font-weight: 500;
   width: 100%;
   text-align: center;
-  color: black;
+	margin: 0;
 }
 body {
-  background-color: rgb(89, 130, 227);
+  background-color: white;
   border-radius: 1px;
 }
 ul {
@@ -54,12 +54,13 @@ footer {
 }
 header {
   text-align: center;
-  background-image: url("http://enjoycss.com/webshots/hq_0.png");
+  background-image: url("./congruent_pentagon/congruent_pentagon.png");
   max-width: 100%;
   max-height: 100%;
   border-radius: 5px;
-  border-style: solid;
-  border-color: grey;
+
+  /*border-style: solid;
+  border-color: grey;*/
 }
 .degreeTitle {
   padding-left: 25px;
@@ -72,4 +73,8 @@ h2 {
 }
 #linkedinbutton {
   padding: 3px;
+}
+.title {
+	color: white;
+	text-shadow: 2px 2px 2px grey;
 }
