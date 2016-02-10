@@ -1,80 +1,111 @@
-h1 {
-	font-size: 60px;
-	font-style: normal;
-	font-variant: normal;
-	line-height: normal;
-  text-transform: uppercase;
-  font-family: Geneva, Tahoma, Verdana, sans-serif;
-  font-weight: 500;
-  width: 100%;
-  text-align: center;
-	margin: 0;
-}
 body {
-  background-color: white;
-  border-radius: 1px;
+	background-image: url("./assets/images/grey_wall.png");
+	background-color: grey;
+	font-family: 'Maven Pro', sans-serif;
 }
-ul {
-  list-style-type: inline;
-  margin: 0;
-  padding: 0;
+header {
+	padding-top: 50px;
+	text-align: center;
+	width: 100%;
+	color: white;
 }
-.content {
-  font-family: Geneva, Tahoma, Verdana, sans-serif;
-  height: 100%;
-  min-height: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
-  list-style: none;
-
+header h2 {
+	width: 60%;
+	margin: 0 auto;
+	font-size: 4.5vw;
+}
+header h1 {
+	font-family: 'Signika', sans-serif;
+	max-width: 70%;
+	margin: 0 auto;
+	font-size: 7vw;
+}
+.container {
+	max-width: 70%;
+	margin: 0 auto;
+	/*padding-top: 500px;*/
 }
 footer {
   text-align: center;
   padding-top: 20px;
 }
-.wrapper {
-  font-family: Geneva, Tahoma, Verdana, sans-serif;
-  background-color: white;
-  max-width: 85%;
+nav {
+  /*text-align: center;*/
   margin: 0 auto;
-  border-radius: 5px;
+	font-size: 1.9vw;
+	position: fixed;
+	background-color: rgba(244, 254, 255, 0.4);
+	/*background-image: url("./assets/images/grey_wall.png");*/
+	display: block;
+	width: 10%;
 }
-.links {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+nav a {
+  padding:10px;
 }
-.links li {
-  display: inline;
-}
-.links a{
-    display:inline-block;
-    padding:10px;
-}
-header {
-  text-align: center;
-  background-image: url("./congruent_pentagon/congruent_pentagon.png");
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 5px;
+.nav-scrolled{
 
-  /*border-style: solid;
-  border-color: grey;*/
-}
-.degreeTitle {
-  padding-left: 25px;
-}
-ul {
-  list-style: none;
-}
-h2 {
-  font-size: 25px;
 }
 #linkedinbutton {
   padding: 3px;
 }
-.title {
-	color: white;
+h2 {
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	font-size: 4vw;
+}
+h3 {
+	text-align: center;
+}
+.projects {
+	height: auto;
+	background-color: rgba(244, 254, 255, 0.4);
+}
+.projects img {
+	height: auto;
+	max-width: 80%;
+	margin: 0 10%;
+	border-radius: 1%;
+}
+.projectText {
+	text-align: justify;
+	max-width: 50%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.education {
+	height: auto;
+	background-color: rgba(237, 245, 246, .4);
+	text-align: justify;
+	padding-bottom: 10px;
+}
+.education p {
+	max-width: 60%;
+	margin: 0 auto;
+}
+.education h4 {
+	max-width: 70%
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
 	text-shadow: 2px 2px 2px grey;
+}
+.skills {
+	height: auto;
+	background-color: rgba(237, 245, 246, .4);
+	text-align: justify;
+	padding-bottom: 10px;
+}
+.skills p {
+	margin: 0 auto;
+	max-width: 60%;
+}
+.contact {
+	height: auto;
+	background-color: rgba(237, 245, 246, .4);
+	text-align: center;
+	padding-bottom: 10px;
+}
+#headshot {
+	max-width: 20%;
+	border-radius: 30%;
 }

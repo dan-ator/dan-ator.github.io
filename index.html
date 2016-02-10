@@ -3,83 +3,101 @@
 
 <head>
   <title>Daniel E. Alexander</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Signika:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
 </head>
 
 <body>
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skils</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+    <a href="#top">Top</a>
+  </nav>
     <header>
-      <div class="title">
+      <div id="top" class="title">
         <h1>Daniel Elliot Alexander</h1>
+        <img id="headshot" src="./assets/images/headshot.jpg" alt="photo of daniel alexander">
         <h2>Web Developer | Curious, methodical, and persistent</h2>
-      </div>
-      <div class="links">
-        <ul>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skils</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
       </div>
     </header>
     <div class="container">
-    <div class="content">
+      <div class="projects">
+        <h2 id="projects">Projects</h2>
 
-      <h2 id="projects">Projects</h2>
-      <p><a href="http://dan-ator.github.io/project_four_angular/#/">Closet!</a>: Full-stack virtual closet application. User can upload pictures of every item in closet to catalogue and organize.  Technologies used included Ruby on Rails back-end with Carrierwave gem for file upload; front-end built primarily in Angular.js and Bootstrap.
-      </p>
-      <p><a href='https://reportour.herokuapp.com/'>Reportour</a>: Full-stack online platform for Foreign Service officers and families to share relevant experiences from tours abroad, with cross-feedback ability from other users.  Technologies used included Ruby on Rails, authentication using Devise, and permissions using CanCanCan. Front-end design using CSS and HTML.
-      </p>
-      <p><a href='http://cityfighter.herokuapp.com/'>City Fighter</a>: Interactive app that lets prospective web developers research relevant information about major U.S. cities by displaying useful information pertaining to web developers for the different cities, such as average salary, number of current open job listings, local companies that are currently hiring web developers, cost of living, and even lifestyle-related concerns such as bike share information, weather, and real-estate prices. Developed as part of a team.
-      </p>
+        <a href="http://dan-ator.github.io/project_four_angular/#/"><img src="./assets/images/ocd_screenshot.png" alt="screenshot of closet application"></a>
+        <h3>Organized Closet Domain</h3>
+        <p class="projectText">Full-stack virtual closet application. User can upload pictures of every item in closet to catalogue and organize.  Technologies used included Ruby on Rails back-end with Carrierwave gem for file upload; front-end built primarily in Angular.js and Bootstrap.
+        </p>
 
-      <h2 id="skills">Skills</h2>
-      <ul><h4>General</h4>
-        <li>Github</li>
-        <li>Agile</li>
-      </ul>
-      <ul><h4>Back-end</h4>
-        <li>Ruby on Rails</li>
-        <li>Express</li>
-        <li>PostgresQL</li>
-        <li>MongoDB</li>
-        <li>Node.js</li>
-        <li>MVC</li>
-        <li>API</li>
-      </ul>
-      <ul><h4>Front-end</h4>
-        <li>Javascript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Angular.js</li>
-        <li>Boostrap</li>
-        <li>JQuery</li>
-        <li>Ajax</li>
-      </ul>
+        <a href='https://reportour.herokuapp.com/'><img src="./assets/images/reportour_screenshot.png" alt="screenshot of reportout app"></a>
+        <h3>Tour Reporter</h3>
+        <p class="projectText">Full-stack online platform for Foreign Service officers and families to share relevant experiences from tours abroad, with cross-feedback ability from other users.  Technologies used included Ruby on Rails, authentication using Devise, and permissions using CanCanCan. Front-end design using CSS and HTML.
+        </p>
 
-      <h2 id="education">Education</h2>
-      <ul>
-        <li>General Assembly, Washington, D.C.</li>
-        <li class="degreeTitle">Full-stack web development program focused on common best practices in object-oriented programming, MVC frameworks, data modeling, and test-driven development. Developed a portfolio of individually focused and collaboratively focused projects</li>
-        <li>The George Washington University, Elliott School of International Affairs, Washington, D.C.</li>
-        <li class="degreeTitle">Master of Arts in International Affairs with a focus on International Security Studies, August 2012</li>
-        <li>Boston University, Boston, Massachusetts</li>
-        <li class="degreeTitle">Bachelor of Arts in International Relations, cum laude, May 2007</li>
-        <li class="degreeTitle">Bachelor of Science in Journalism, cum laude, May 2007</li>
-      </ul>
+        <a href='http://cityfighter.herokuapp.com/'><img src="./assets/images/city_fighter_screenshot.png" alt="screenshot of city fighter app"></a>
+        <h3>City Fighter</h3>
+        <p class="projectText">Interactive app that lets prospective web developers research relevant information about major U.S. cities by displaying useful information pertaining to web developers for the different cities, such as average salary, number of current open job listings, local companies that are currently hiring web developers, cost of living, and even lifestyle-related concerns such as bike share information, weather, and real-estate prices. Developed as part of a team.
+        </p>
+      </div>
+      <div class="skills">
+        <h2 id="skills">Skills</h2>
+        <ul><h3>General</h3>
+          <p>
+            Github,
+            Agile
+          </p>
+        </ul>
+        <ul><h3>Back-end</h3>
+          <p>
+            Ruby on Rails,
+            Express,
+            PostgresQL,
+            MongoDB,
+            Node.js,
+            MVC,
+            API,
+          </p>
+        </ul>
+        <ul><h3>Front-end</h3>
+          <p>
+            Javascript,
+            HTML,
+            CSS,
+            Angular.js,
+            Boostrap,
+            JQuery,
+            Ajax
+          </p>
+        </ul>
+      </div>
+      <div class="education">
+        <h2 id="education">Education</h2>
+          <h4>General Assembly, Washington, D.C.</h4>
+            <p>Full-stack web development program focused on common best practices in object-oriented programming, MVC frameworks, data modeling, and test-driven development. Developed a portfolio of individually focused and collaboratively focused projects</p>
+            <h4>The George Washington University, Elliott School of International Affairs, Washington, D.C.</h4>
+            <p>Master of Arts in International Affairs with a focus on International Security Studies, August 2012</p>
+            <h4>Boston University, Boston, Massachusetts</h4>
+            <p>Bachelor of Arts in International Relations, cum laude, May 2007</p>
+            <p>Bachelor of Science in Journalism, cum laude, May 2007</p>
+      </div>
 
-      <h2 id="contact">Contact</h2>
-      <p>Email: Daniel.Elliot.Alexander@gmail.com</p>
-      <a href="https://github.com/dan-ator">Github</a>
-      <a href="https://www.linkedin.com/pub/daniel-alexander/14/746/570">LinkedIn</a>
-      <a href="https://www.facebook.com/daniel.alexander.9674227">Facebook</a>
-    </div>
+      <div class="contact">
+        <h2 id="contact">Contact</h2>
+        <p>Email: Daniel.Elliot.Alexander@gmail.com</p>
+        <a href="https://github.com/dan-ator">Github</a>
+        <a href="https://www.linkedin.com/pub/daniel-alexander/14/746/570">LinkedIn</a>
+      </div>
+
     <footer>
-      <div class=copy>Copyright &copy; 2016 Daniel Alexander. All Rights Reserved.</div>
+      <div>Copyright &copy; 2016 Daniel Alexander. All Rights Reserved.</div>
     </footer>
   </div>
 </body>
